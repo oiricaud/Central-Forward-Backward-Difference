@@ -1,0 +1,158 @@
+P1) Function = e^x, evaluated at x = 0.0, and c = 0.0
+ 
+Backward difference formula we obtain
+    h = 0.1
+        DnF(x) = -0.95
+        Error = 0.05
+    h = 0.05
+        DnF(x) = -0.975
+        Error = 0.025
+    h = 0.025
+        DnF(x) = -0.9875
+        Error = 0.0125
+    h = 0.0125
+        DnF(x) = -0.99375
+        Error = 0.00625
+    h = 0.00625
+        DnF(x) = -0.996875
+        Error = 0.003125
+Central difference formula we obtain
+    h = 0.1
+        DnF(x) = 1.001667500198441
+        Error = 0.001666666666666667
+    h = 0.05
+        DnF(x) = 1.000416718753101
+        Error = 4.1666666666666675E-4
+    h = 0.025
+        DnF(x) = 1.0001041699219249
+        Error = 1.0416666666666669E-4
+    h = 0.0125
+        DnF(x) = 1.000026041870119
+        Error = 2.6041666666666672E-5
+    h = 0.00625
+        DnF(x) = 1.0000065104293832
+        Error = 6.510416666666668E-6
+Function not found
+ 
+Forward difference formula we obtain
+    h = 0.1
+        DnF(x) = 1.05
+        Error = -0.05
+    h = 0.05
+        DnF(x) = 1.025
+        Error = -0.025
+    h = 0.025
+        DnF(x) = 1.0125
+        Error = -0.0125
+    h = 0.0125
+        DnF(x) = 1.00625
+        Error = -0.00625
+    h = 0.00625
+        DnF(x) = 1.003125
+        Error = -0.003125
+P2) Function = arctan(x^2 - x + 1), evaluated at x = 1.0, and c = 1.0
+ 
+Backward difference formula we obtain
+    h = 0.1
+        DnF(x) = -0.475
+        Error = 0.025
+    h = 0.05
+        DnF(x) = -0.4875
+        Error = 0.0125
+    h = 0.025
+        DnF(x) = -0.49375
+        Error = 0.00625
+    h = 0.0125
+        DnF(x) = -0.496875
+        Error = 0.003125
+    h = 0.00625
+        DnF(x) = -0.4984375
+        Error = 0.0015625
+Central difference formula we obtain
+   h = 0.1
+        DnF(x) = 1.5069719248396434
+        Error = -0.0041666666666666675
+   h = 0.05
+        DnF(x) = 1.501841784089678
+        Error = -0.0010416666666666669
+   h = 0.025
+        DnF(x) = 1.5004666709275405
+        Error = -2.604166666666667E-4
+   h = 0.0125
+        DnF(x) = 1.5001170575107636
+        Error = -6.510416666666668E-5
+   h = 0.00625
+        DnF(x) = 1.5000292887499445
+        Error = -1.627604166666667E-5
+Function not found
+ 
+Forward difference formula we obtain
+    h = 0.1
+        DnF(x) = 0.525
+        Error = -0.025
+    h = 0.05
+        DnF(x) = 0.5125
+        Error = -0.0125
+    h = 0.025
+        DnF(x) = 0.50625
+        Error = -0.00625
+    h = 0.0125
+        DnF(x) = 0.503125
+        Error = -0.003125
+    h = 0.00625
+        DnF(x) = 0.5015625
+        Error = -0.0015625
+P3) Function = arctan(100x^2 - 199x + 100), evaluated at x = 1, and c = 1.0
+secondDeriv_3 99.5
+ 
+Backward difference formula we obtain
+    h = 0.1
+        DnF(x) = 4.4750000000000005
+        Error = 4.9750000000000005
+    h = 0.05
+        DnF(x) = 1.9875000000000003
+        Error = 2.4875000000000003
+    h = 0.025
+        DnF(x) = 0.7437500000000001
+        Error = 1.2437500000000001
+    h = 0.0125
+        DnF(x) = 0.12187500000000007
+        Error = 0.6218750000000001
+    h = 0.00625
+        DnF(x) = -0.18906249999999997
+        Error = 0.31093750000000003
+Central difference formula we obtain
+   h = 0.1
+        DnF(x) = 0.20029359567962368
+        Error = -0.4983333333333334
+   h = 0.05
+        DnF(x) = 0.3904264995515361
+        Error = -0.12458333333333335
+   h = 0.025
+        DnF(x) = 0.4697762972323094
+        Error = -0.031145833333333338
+   h = 0.0125
+        DnF(x) = 0.4922615388000606
+        Error = -0.0077864583333333345
+   h = 0.00625
+        DnF(x) = 0.49805394469126796
+        Error = -0.0019466145833333336
+ 
+Forward difference formula we obtain
+    h = 0.1
+        DnF(x) = 5.4750000000000005
+        Error = -4.9750000000000005
+    h = 0.05
+        DnF(x) = 2.9875000000000003
+        Error = -2.4875000000000003
+    h = 0.025
+        DnF(x) = 1.7437500000000001
+        Error = -1.2437500000000001
+    h = 0.0125
+        DnF(x) = 1.1218750000000002
+        Error = -0.6218750000000001
+    h = 0.00625
+        DnF(x) = 0.8109375000000001
+        Error = -0.31093750000000003
+
+Process finished with exit code 0
